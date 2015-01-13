@@ -1,0 +1,8 @@
+﻿Agência Tintero - Design Clássico <http://tintero.com.br>
+
+/* SITE */
+	
+Última atualização:: 17/05/2013
+Padrões: HTML5, CSS3, JS, PHP5.
+Componentes: Wordpress, Bootstrap, Modernizr, jQuery, Cufon.
+Ferramentas: Sublime Text, Notepad++, FileZilla, Photoshop
