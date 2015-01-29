@@ -4,56 +4,49 @@
 <!--[if (gt IE 9)|!(IE)]><!--> 
 <html id="noie" lang="pt-br" class="no-js"> 
 <!--<![endif]-->
-<head>
+    <head>
         <meta charset="utf-8">
         <meta name="robots" content="noindex, nofollow"> 
-        <title><?php echo THEME_NAME; ?></title>   
+        <title>Duo Life Style</title>   
         <meta name="description" content="Duo - Lyfe Style">
         <meta name="format-detection" content="telephone=no">
         <link rel="author" type="text/plain" href="humans.txt" />
         <link rel="shortcut icon" type="image/png" href="assets/ico/favicon.png"/>
         <link rel="icon" type="image/x-icon" href="assets/ico/favicon.ico"> 
 
-        <!-- Styles -->
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css<?php echo '?ver='.THEME_VERSION; ?>"> 
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css"> 
 
-        <script src='<?php echo THEME_URL; ?>assets/js/modernizr.js'></script> 
-</head>
+        <script src='assets/js/modernizr.js'></script> 
+    </head>
 
-<body>
+    <body>
+        <div id="wrap">
+            <header>
+                <div class="contenido">
+                    <div id="logo">
+                        <a href="index.html">
+                            <h1>Duo Life Style</h1>
+                            <img src="assets/img/logo.png" alt="Duo Life Style">
+                        </a>
+                    </div>
 
-    <!-- Wrap 
-    ================================================== -->
-    <div id="wrap">
-    
-    <!-- Header
-    ================================================== -->
-    <header>
-        <div class="contenido">
-            <div id="logo">
-                <a href="<?php echo THEME_URL; ?>">
-                    <h1><?php echo THEME_NAME; ?></h1>
-                    <img src="assets/img/logo.png" alt="<?php echo THEME_NAME; ?>">
-                </a>
-            </div>
-
-            <nav id="menu" class="span9 menu">
-                <ul class="nav inline">
-                    <li class="<?php if(PAGE_NAME=='sobre/index.php') { echo 'active'; }?>" > <a href="sobre">Sobre a Duo LifeStyle</a> </li>
-                    <li class="<?php if(PAGE_NAME=='empreendimentos/index.php') { echo 'active'; }?>" > <a href="empreendimentos">Empreendimentos</a></li>
-                    <li class="<?php if(PAGE_NAME=='contato/index.php') { echo 'active'; }?>" > <a href="contato">Contato</a></li>
-                </ul>
-            </nav> 
-        </div>
-    </header><!-- #masthead -->
+                    <nav id="menu" class="span9 menu">
+                        <ul class="nav inline">
+                            <li> <a href="sobre.html">Sobre a Duo LifeStyle</a> </li>
+                            <li> <a href="empreendimentos.html">Empreendimentos</a></li>
+                            <li> <a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+            </header>
         
-        <div id="miolum">
-    <div class="contenido">
-        <div class="Slider">
-            <ul>
-                <li>
-                    <img src="assets/img/banner.jpg"/>
-                </li>
-            </ul>
-        </div>
-    </div>
+            <div id="miolum">
+                <div class="contenido">
+                    <div class="Slider">
+                        <ul>
+                            <li>
+                                <img src="assets/img/banner.jpg"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
